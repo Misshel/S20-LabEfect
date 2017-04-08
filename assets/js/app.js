@@ -43,6 +43,7 @@ var coders = ['Fiorella Quispe','Lourdes Vilchez','Leydi Maldonado','Yessenia Hu
               'Karin Alejo', 'Liliana Peña', 'Ruth Salvador', 'Marilu Llamoca', 'Wendy Reyes',
               'Cinthya Quispe','Maria Grecia Cutipa', 'Ana Durand', 'Glisse Jorge', 'Neiza Nuñez',
               'Sandra Solorzano'];
+
 for(var i=1;i<54;i++){
   var foto= document.getElementById("fotos");//section en mi html
 
@@ -53,6 +54,7 @@ for(var i=1;i<54;i++){
   namecoder.innerHTML=coders[i];
   imagen.setAttribute("class","foto");
   div.setAttribute("class","imagen");
+  namecoder.setAttribute("class","text");
   div.appendChild(imagen);
   div.appendChild(namecoder);
   foto.appendChild(div);
