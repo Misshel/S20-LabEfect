@@ -29,7 +29,7 @@ window.addEventListener("scroll",function(){
 
 
 /*para fotos*/
-var coders = ['Fiorella Quispe','Lourdes Vilchez','Leydi Maldonado','Yessenia Huamán',
+var coders = [' ','Fiorella Quispe','Lourdes Vilchez','Leydi Maldonado','Yessenia Huamán',
               'Miriam Mendoza', 'Elizabeth Condori', 'Arantza Burga', 'Grecia Rayme',
               'Janine Vega', 'Rosario Félix', 'Daguiana Revolledo', 'Jenny Velasquez',
               'Nadia Cuadros', 'Michelle More', 'Marilu Llamoca', 'Mariel García',

@@ -14,6 +14,9 @@
 }
 
 .imagen .text{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
   display: none;
   top:0;
 }
@@ -30,6 +33,10 @@
   transition: all 0.3s;
 }
 .imagen:hover .text{
+  color:white;
+  left: 11%;
+  position: absolute;
   display: block;
-  top:-100px;
+  top: 50%;
+  font-size: 30px;
 }
