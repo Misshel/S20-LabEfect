@@ -4,7 +4,7 @@
 
 .imagen { /*foto generada con js*/
   display: inline-block;
-  margin: 1%;
+  margin: 2%;
 }
 
 .foto, .imagen{ /*div contenedor*/
@@ -39,4 +39,42 @@
   display: block;
   top: 50%;
   font-size: 30px;
+}
+
+
+/*efecto maquina*/
+#write {
+    height: 50%;
+    width: 100%;
+    padding: 150px;
+    background: #503D39;
+    margin: 0% 0% 2% 0%;
+    display: table;
+}
+
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+	position: relative;
+	float: left;
+	background:  #503D39;
+	color: #fff;
+	font-size: 2.5em;
+}
+
+
+
+h1 span {
+    position:absolute;
+    right:0;
+    width:0;
+    background: #503D39;
+    border-left: 1px solid #000;
+    animation: escribir 5s steps(30) infinite alternate;
+}
+
+@keyframes escribir {
+    from { width: 100% }
+    to { width:0 }
 }
